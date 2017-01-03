@@ -1,0 +1,20 @@
+.colleges li {
+  display:block;
+  width:90%;
+  margin-right:4.5%;
+  font-size:14px;
+  line-height:normal;
+  background-color:#92DFF0;
+  height:50px;
+  transition: all .5s ease-in;
+}
+.colleges li a{
+  position:absolute;
+  text-decoration:none;
+  margin-top:15px;
+  margin-left:120px;
+}
+
+.colleges li:hover a {color:#fff; text-decoration:none;}
+
+.colleges li:hover {box-shadow: 740px 0px 0 0 orange inset;}
